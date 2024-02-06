@@ -5,7 +5,7 @@
 -Это скрипт! 
 -Нет, кое-что получше! Это рисунок скрипта!
 
-<img src="https://github.com/copetonrob/YP_Unity_M3_W1/blob/main/img/meme1.png" width="300"/>
+<img src="https://github.com/copetonrob/YP_Unity_M3_W1/blob/main/img/meme2.png" width="300"/>
 
 Посмотри внимательно на скриншот скрипта и восстанови утраченные фрагменты!
 
