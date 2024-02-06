@@ -18,5 +18,5 @@
 4. Не забудь настроить персонажа и его CharacterController.
 5. Запусти проект, проверь, что передвижение работает корректно.
 
-<img src="https://github.com/copetonrob/YP_Unity_M3_W2/blob/main/img/script2.png"/>
+<img src="https://github.com/copetonrob/YP_Unity_M3_W2/blob/main/img/script2.png" width="800"/>
 
