@@ -5,7 +5,7 @@
 -Это скрипт! 
 -Нет, кое-что получше! Это рисунок скрипта!
 
-<img src="https://github.com/copetonrob/YP_Unity_M3_W1/blob/main/img/meme2.jpg" width="300"/>
+<img src="https://github.com/copetonrob/YP_Unity_M3_W2/blob/main/img/meme2.jpg" width="300"/>
 
 Посмотри внимательно на скриншот скрипта и восстанови утраченные фрагменты!
 
@@ -17,5 +17,5 @@
 4. Не забудь настроить персонажа и его CharacterController.
 5. Запусти проект, проверь, что передвижение работает корректно.
 
-<img src="https://github.com/copetonrob/YP_Unity_M3_W1/blob/main/img/script2.png"/>
+<img src="https://github.com/copetonrob/YP_Unity_M3_W2/blob/main/img/script2.png"/>
 
