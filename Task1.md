@@ -20,14 +20,4 @@
 
 ## Пример кода с багом (посмотри, как наставник его починит)
 
-```csharp
-using UnityEngine;
-
-public class Example : MonoBehaviour
-{
-    void Start()
-    {
-        Debug.log("Hello Unity!");
-    }
-}
-```
+В этом скрипте объект должен двигаться на манер пинг-понга (вперед и назад) [Example.cs](/Example.cs)

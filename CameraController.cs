@@ -8,19 +8,21 @@ public class CameraController : MonoBehaviour
     public float MaxAngle;
 
     public float RotationSpeed;
-    
+	
     private void Update()
     {
-        float newAngleY = transform.localEulerAngles.y + Input.getaxis("Mouse X") * RotationSpeed;
-        transfopm.localEulerAngles = new Vector3(0, newAngleY, 0);
+        float newAngleY = transform.localEulerAngles.y * Input.GetAxis("Mouse X") * RotationSpeed;
+        transform.localEulerAngles = new Vector3(0, newAngleY, 0);
 
+        
         float newAngleX = CameraHolder.localEulerAngles.x - Input.GetAxis("Mouse Y") * RotationSpeed;
         if (newAngleX > 180)
         {
-            newAngleX -= 360
+            newAngleX -= 360;
         }
 
-        newAngleX = Mathf.Clamp(newAngleX, MinAngle, Maxangle);
+        newAngleX = Mathf.Clamp(newAngleX, MinAngle, MaxAngle);
 
-        CameraHolder.localEulerAngles = new Vector3(newAngleX, 0, 0);
+        CameraHolder.localEulerAngles = new Vector3(-newAngleX, 0, 0);
     }
+}
